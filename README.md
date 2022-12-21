@@ -1,6 +1,9 @@
 # Growatt_ShineWiFi
 Firmware replacement for Growatt ShineWiFi-S (serial), ShineWiFi-X (USB) or custom build stick (ESP8266/ESP32).
 
+# Fixing MQTT
+# Problem mit dem Server Login
+
 # How to install
 * Checkout this repo
 * Setup the IDE of your choice
