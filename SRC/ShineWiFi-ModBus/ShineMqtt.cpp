@@ -45,8 +45,9 @@ String getId()
     #elif ESP32
         uint64_t id = ESP.getEfuseMac();
     #endif
-
-    return String("Growatt"+id);
+    
+    //return String("Growatt"+id); 
+    return String("Growatt"+String(ESP.getChipId()).c_str()); 
 }
 
 
